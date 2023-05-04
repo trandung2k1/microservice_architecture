@@ -8,6 +8,9 @@
         "users": "nodemon users/index.ts",
         "products": "nodemon products/index.ts",
         "orders": "nodemon orders/index.ts",
+        "order": "nodemon microservice_use_redis/order.ts",
+        "payment": "nodemon microservice_use_redis/payment.ts",
+        "sendmail": "nodemon microservice_use_redis/sendmail.ts",
         "build": "tsc"
     },
     "keywords": [],
@@ -19,7 +22,8 @@
         "express": "^4.18.2",
         "helmet": "^6.1.5",
         "http-proxy-middleware": "^2.0.6",
-        "morgan": "^1.10.0"
+        "morgan": "^1.10.0",
+        "redis": "^4.6.6"
     },
     "devDependencies": {
         "@types/cors": "^2.8.13",
